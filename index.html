@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Четыре правила вёрстки</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="icon"
-      href="https://code.s3.yandex.net/web-code/rules-favicon.ico"
-    />
-  </head>
 
-  <body>
-    <header>
-      <div class="overlay">
-        <h1>Четыре правила верстки</h1>
-      </div>
-    </header>
-    <section>
-      <div class="card">
-        <img class = "card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg" alt="">
-        <h3 class="card-title">Пустота</h3>
-        <p class="card-text">
-          Простое правило, которое часто нарушают: ставить рядом элементы с
-          похожем смыслом и окружать их пустым пространтвом. Пустота - мощное
-          средство воздействия.
-        </p>
-      </div>
-      <div class="card">
-        <img class = "card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg" alt="">
-        <h3 class="card-title">Сетка</h3>
-        <p class="card-text">
-          Размеры элементов и расстояние между ними укладываются в схему-её
-          называют сеткой. Если элемент выпадает, зритель может это заметить.
-        </p>
-      </div>
-    </section>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Четыре правила вёрстки</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://code.s3.yandex.net/web-code/rules-favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="overlay">
+      <h1>Четыре правила верстки</h1>
+    </div>
+  </header>
+  <section class="content">
+
+    <div class="card">
+      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-1.jpg" alt="">
+      <h3 class="card-title">Пустота</h3>
+      <p class="card-text">
+        Простое правило, которое часто нарушают: ставить рядом элементы с
+        похожем смыслом и окружать их пустым пространтвом. Пустота - мощное
+        средство воздействия.
+      </p>
+    </div>
+    <div class="card no-righ-margin">
+      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-2.jpg" alt="">
+      <h3 class="card-title">Сетка</h3>
+      <p class="card-text">
+        Размеры элементов и расстояние между ними укладываются в горминичную схему - её
+        называют сеткой. Если элемент выпадает, зритель может это заметить.
+      </p>
+    </div>
+    <div class="card">
+      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-3.jpg" alt="">
+      <h3 class="card-title">Шрифы </h3>
+      <p class="card-text">
+        Не боьше трех шрифтов на сайт. Один для заголовкв, Второй - для всех осталных текстов, третий - для выдиления
+        важных слов. Должно хватить.
+      </p>
+    </div>
+    <div class="card no-righ-margin">
+      <img class="card-image" src="https://pictures.s3.yandex.net/frontend-developer/free-course/card-4.jpg" alt="">
+      <h3 class="card-title">цвета</h3>
+      <p class="card-text">
+        Обычно на сайте два цвета : ведущий и акценентный. Подобрать удачную цветовую пару можно за счет носмотрености или
+        сециальных инструментов
+      </p>
+  </section>
+</body>
+
 </html>
