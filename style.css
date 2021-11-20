@@ -27,7 +27,8 @@ h1{
     color: white;
     text-transform: uppercase;
     font-weight: 500;
-    padding-top: 10%;
+    margin: auto;
+
 }
 
 .overlay{
@@ -37,10 +38,11 @@ h1{
 }
 
 .card{
+    box-shadow: -20px 20px 50px rgb(255, 0, 0);
     width: 350px;
     margin-bottom: 60px;
     padding: 45px 45px 70px;
-    border: solid 2px rgba(250, 50, 50, .4);
+   /* border: solid 2px rgba(250, 50, 50, .4);*/
     display: inline-block;
     margin-right: 90px;
 
@@ -63,7 +65,22 @@ h1{
     font-size: 0;
     width: 790px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .no-righ-margin{
     margin-right: 0;
+}
+.footer{
+    height:300px;
+    background-color:#000 ;
+   display: flex;
+}
+
+
+
+
+.color{
+    font-size: 24px;
+color: #eee;
+margin: auto;
 }
